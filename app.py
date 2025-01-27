@@ -3,6 +3,7 @@ from insightface.app import FaceAnalysis
 from flask import Flask, request, jsonify
 import numpy as np
 import cv2
+import base64 
 
 app = Flask(__name__)
 
